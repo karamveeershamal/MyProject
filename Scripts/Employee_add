@@ -1,0 +1,7 @@
+'CREATE TABLE `employee_add` (
+  `employee_address_id` bigint NOT NULL AUTO_INCREMENT,
+  `address` varchar(200) DEFAULT NULL,
+  `Employee_ID` bigint DEFAULT NULL,
+  PRIMARY KEY (`employee_address_id`),
+  KEY `Employee_ID_idx` (`Employee_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci'

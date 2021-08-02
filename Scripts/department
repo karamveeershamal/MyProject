@@ -1,0 +1,7 @@
+'CREATE TABLE `department` (
+  `department_id` bigint NOT NULL AUTO_INCREMENT,
+  `description_text` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `is_active` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`department_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci'
